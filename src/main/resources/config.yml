@@ -1,0 +1,71 @@
+# Colors and formatting codes are supported, but must begin with "§"
+
+# A percent symbol indicates a variable. Only variables that are
+# relevant to the command are supported for that command.
+
+# WARNING: The plugin assumes that all the values are present and
+#          provided in the correct form! If that is not the case,
+#          unexpected behaviour (crashes, bugs, etc) WILL occur!
+
+messages:
+  player-joined: "§8[§5TNT Run§8] §6%p§a has joined the game! [§6%n§a/§6%m§a]"
+  player-left: "§8[§5TNT Run§8] §6%p§c has left the game. [§6%n§c/§6%m§c]"
+  player-died: "§8[§5TNT Run§8] §6%p§c has died."
+  player-won: "§8[§5TNT Run§8] §6%p§a has won!"
+  
+  left: "§8[§5TNT Run§8] §6You have §cleft§6 the game."
+  died: "§8[§5TNT Run§8] §6You have §cdied§6."
+  
+  countdown: "Game starts in %s seconds."
+  started: "§8[§5TNT Run§8] §aThe game has started!"
+  
+options:
+  min-players: 2
+  max-players: 10
+  
+  countdown: 20
+
+regions:
+  world: "tntrun"
+  
+  startPos:
+    - 0
+    - 13
+    - -17
+  main:
+    vector1:
+      - -14
+      - 0
+      - -4
+    vector2:
+      - 13
+      - 255
+      - -31
+  
+  layer1:
+    vector1:
+      - -14
+      - 12
+      - -4
+    vector2:
+      - 13
+      - 12
+      - -31
+  layer2:
+    vector1:
+      - -14
+      - 6
+      - -4
+    vector2:
+      - 13
+      - 6
+      - -31
+  layer3:
+    vector1:
+      - -14
+      - 0
+      - -4
+    vector2:
+      - 13
+      - 0
+      - -31
